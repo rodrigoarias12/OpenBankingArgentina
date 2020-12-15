@@ -4,8 +4,8 @@ module.exports = {
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'rodrigoarias12', // Usually your GitHub org/user name.
+  projectName: 'OpenBankingArgentinaDocusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'OpenBankingArgentina',
@@ -20,9 +20,9 @@ module.exports = {
           label: 'Docs API',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        //{to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/rodrigoarias12/OpenBankingArgentinaDocusaurus',
           label: 'GitHub',
           position: 'right',
         },
@@ -45,19 +45,14 @@ module.exports = {
           ],
         },
         {
-          title: 'Community',
+          title: 'Comunidad',
           items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+             label: 'GitHub',
+              href: 'https://github.com/rodrigoarias12/OpenBankingArgentinaDocusaurus/discussions',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Linkedin',
+              href: 'https://www.linkedin.com/in/rodrigogonzaloarias/',
             },
           ],
         },
@@ -70,7 +65,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/rodrigoarias12/OpenBankingArgentinaDocusaurus',
             },
           ],
         },
@@ -92,7 +87,7 @@ module.exports = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/rodrigoarias12/OpenBankingArgentinaDocusaurus/discussions',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
