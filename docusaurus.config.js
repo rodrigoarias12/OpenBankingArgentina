@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'Open Banking Argentina',
+  title: 'Open Banking Argentina',
+  tagline: '',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -8,7 +8,7 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'OpenBankingArgentina',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.png',
