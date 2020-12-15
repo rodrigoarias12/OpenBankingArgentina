@@ -91,18 +91,13 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/rodrigoarias12/OpenBankingArgentinaDocusaurus',
         },
         blog: {
 		  blogTitle: 'Open Banking Argentina blog!',
           blogDescription: 'Open Banking Argentina blog!',
           showReadingTime: true,
 		  blogSidebarCount:1,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/rodrigoarias12/OpenBankingArgentinaDocusaurus/discussions',
+		  blogSidebarTitle: 'Tus post'
         },
 		
         theme: {
