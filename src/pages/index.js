@@ -8,32 +8,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: <>Facil de usar</>,
+    imageUrl: 'img/undraw_Data_points_re_vkpq.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+       Esta pensando para facilitar el acceso a las apis. Sin vueltas.
       </>
     ),
   },
   {
-    title: <>Focus on What Matters</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: <>API de transacciones</>,
+    imageUrl: 'img/undraw_Payments_re_77x0.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+      Accede a la informacion de tus <code> transacciones  </code> 
       </>
     ),
   },
   {
-    title: <>Powered by React</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: <>API de cuenta</>,
+    imageUrl: 'img/undraw_Devices_re_dxae.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+      Acceder a la informacion de tu cuenta .
       </>
     ),
   },
