@@ -20,7 +20,7 @@ module.exports = {
           label: 'Docs API',
           position: 'left',
         },
-       // {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/rodrigoarias12/OpenBankingArgentinaDocusaurus',
           label: 'GitHub',
@@ -38,7 +38,7 @@ module.exports = {
               label: 'Objetivos',
               to: 'docs/doc1',
             },
-          //  {              label: 'Second Doc',              to: 'docs/doc2',            },
+            
           ],
         },
         {
