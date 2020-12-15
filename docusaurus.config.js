@@ -7,6 +7,11 @@ module.exports = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
+	   googleAnalytics: {
+      trackingID: 'G-TL188N61MM',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
     navbar: {
       title: 'OpenBankingArgentina',
       logo: {
@@ -84,11 +89,14 @@ module.exports = {
             'https://github.com/rodrigoarias12/OpenBankingArgentinaDocusaurus',
         },
         blog: {
+		  blogTitle: 'Open Banking Argentina blog!',
+          blogDescription: 'Open Banking Argentina blog!',
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
             'https://github.com/rodrigoarias12/OpenBankingArgentinaDocusaurus/discussions',
         },
+		
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
