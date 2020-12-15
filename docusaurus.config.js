@@ -4,8 +4,8 @@ module.exports = {
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'rodrigoarias12', // Usually your GitHub org/user name.
-  projectName: 'OpenBankingArgentinaDocusaurus', // Usually your repo name.
+  organizationName: 'facebook', // Usually your GitHub org/user name.
+  projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'OpenBankingArgentina',
@@ -35,10 +35,13 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Objetivos',
+              label: 'Style Guide',
               to: 'docs/doc1',
             },
-            
+            {
+              label: 'Second Doc',
+              to: 'docs/doc2',
+            },
           ],
         },
         {
