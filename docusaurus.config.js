@@ -20,7 +20,7 @@ module.exports = {
           label: 'Docs API',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        //{to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/rodrigoarias12/OpenBankingArgentinaDocusaurus',
           label: 'GitHub',
@@ -32,24 +32,20 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Docs API',
           items: [
             {
               label: 'Style Guide',
               to: 'docs/doc1',
             },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2',
-            },
+           
           ],
         },
         {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+          title: 'Comunidad',
+          items: [{
+             label: 'GitHub',
+              href: 'https://github.com/rodrigoarias12/OpenBankingArgentinaDocusaurus/discussions',
             },
             {
               label: 'Linkedin',
