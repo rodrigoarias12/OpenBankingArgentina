@@ -4,8 +4,8 @@ module.exports = {
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'rodrigoarias12', // Usually your GitHub org/user name.
+  projectName: 'OpenBankingArgentinaDocusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'OpenBankingArgentina',
@@ -20,7 +20,7 @@ module.exports = {
           label: 'Docs API',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+       // {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/rodrigoarias12/OpenBankingArgentinaDocusaurus',
           label: 'GitHub',
@@ -35,29 +35,21 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Objetivos',
               to: 'docs/doc1',
             },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2',
-            },
+          //  {              label: 'Second Doc',              to: 'docs/doc2',            },
           ],
         },
         {
-          title: 'Community',
+          title: 'Comunidad',
           items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+             label: 'GitHub',
+              href: 'https://github.com/rodrigoarias12/OpenBankingArgentinaDocusaurus/discussions',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Linkedin',
+              href: 'https://www.linkedin.com/in/rodrigogonzaloarias/',
             },
           ],
         },
