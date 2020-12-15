@@ -1,7 +1,7 @@
 ---
 id: doc1
 title: Style Guide
-sidebar_label:Open Banking Argentina
+sidebar_label: Style Guide
 ---
 
 ## Resumen
