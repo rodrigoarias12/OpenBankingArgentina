@@ -96,7 +96,6 @@ module.exports = {
 		  blogTitle: 'Open Banking Argentina blog!',
           blogDescription: 'Open Banking Argentina blog!',
           showReadingTime: true,
-		  blogSidebarCount:1,
 		  blogSidebarTitle: 'Tus post'
         },
 		
