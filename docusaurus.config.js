@@ -35,10 +35,13 @@ module.exports = {
           title: 'Docs API',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Transacciones',
               to: 'docs/doc1',
             },
-           
+           {
+              label: 'Cuenta',
+              to: 'docs/doc2',
+            },
           ],
         },
         {
