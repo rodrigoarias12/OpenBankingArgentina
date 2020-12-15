@@ -45,10 +45,11 @@ module.exports = {
           ],
         },
         {
-          title: 'Comunidad',
+          title: 'Community',
           items: [
-             label: 'GitHub',
-              href: 'https://github.com/rodrigoarias12/OpenBankingArgentinaDocusaurus/discussions',
+            {
+              label: 'Stack Overflow',
+              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
             },
             {
               label: 'Linkedin',
