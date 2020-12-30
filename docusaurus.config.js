@@ -95,8 +95,9 @@ module.exports = {
         blog: {
 		  blogTitle: 'Open Banking Argentina blog!',
           blogDescription: 'Open Banking Argentina blog!',
-          showReadingTime: true,
-		  blogSidebarTitle: 'Tus post'
+          showReadingTime: true, 
+		  editUrl:
+            'https://github.com/rodrigoarias12/OpenBankingArgentinaDocusaurus/edit/master/website/blog/',
         },
 		
         theme: {
