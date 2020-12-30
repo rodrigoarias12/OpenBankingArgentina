@@ -100,6 +100,8 @@ module.exports = {
           showReadingTime: true, 
 		  editUrl:
             'https://github.com/rodrigoarias12/OpenBankingArgentinaDocusaurus/edit/master/website/blog/',
+			   // Sidebars filepath relative to the site dir.
+          sidebarPath: require.resolve('./sidebars.js'),
         },
 		
         theme: {
