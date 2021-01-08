@@ -1,21 +1,21 @@
 module.exports = {
   title: 'Open Banking Argentina',
-  tagline: '',
-  url: 'https://your-docusaurus-test-site.com',
+  tagline: 'Open Banking Argentina',
+  url: 'https://openbankingargentina.com.ar',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'rodrigoarias12', // Usually your GitHub org/user name.
+  projectName: 'OpenBankingArgentina', // Usually your repo name.
   plugins: ['@docusaurus/plugin-google-gtag'],
    plugins: ['@docusaurus/plugin-google-analytics'],
   themeConfig: {
 	  gtag: {
-      trackingID: 'G-TL188N61MM',
+      trackingID: 'G-W9ZWTYXJ77',
       // Optional fields.
       anonymizeIP: true, // Should IPs be anonymized?
     },
 	   googleAnalytics: {
-      trackingID: 'G-TL188N61MM',
+      trackingID: 'G-W9ZWTYXJ77',
       // Optional fields.
       anonymizeIP: true, // Should IPs be anonymized?
     },
