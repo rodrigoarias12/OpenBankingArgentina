@@ -22,10 +22,10 @@ module.exports = {
     navbar: {
       title: 'OpenBankingArgentina',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'OpenBankingArgentina',
         src: 'img/logo.png',
       },
-      links: [
+      items: [
         {
           to: 'docs/doc1',
           activeBasePath: 'docs',
@@ -90,16 +90,12 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
         },
         blog: {
 		  blogTitle: 'Open Banking Argentina blog!',
           blogDescription: 'Open Banking Argentina blog!',
           showReadingTime: true, 
-		  editUrl:
-            'https://github.com/rodrigoarias12/OpenBankingArgentinaDocusaurus/edit/master/website/blog/',
-			   // Sidebars filepath relative to the site dir.
-          sidebarPath: require.resolve('./sidebars.js'),
         },
 		
         theme: {
