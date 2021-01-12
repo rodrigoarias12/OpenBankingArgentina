@@ -25,7 +25,7 @@ module.exports = {
         alt: 'OpenBankingArgentina',
         src: 'img/logo.png',
       },
-      items: [
+      links: [
         {
           to: 'docs/doc1',
           activeBasePath: 'docs',
@@ -90,7 +90,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
+          sidebarPath: require.resolve('./sidebars.js'),
         },
         blog: {
 		  blogTitle: 'Open Banking Argentina blog!',
