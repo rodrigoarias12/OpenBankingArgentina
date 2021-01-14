@@ -6,15 +6,17 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'rodrigoarias12', // Usually your GitHub org/user name.
   projectName: 'OpenBankingArgentina', // Usually your repo name.
-  plugins: ['@docusaurus/plugin-google-gtag'],
-   plugins: ['@docusaurus/plugin-google-analytics'],
   themeConfig: {
-	  gtag: {
+	colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true
+	},
+	gtag: {
       trackingID: 'G-W9ZWTYXJ77',
       // Optional fields.
       anonymizeIP: true, // Should IPs be anonymized?
     },
-	   googleAnalytics: {
+	googleAnalytics: {
       trackingID: 'G-W9ZWTYXJ77',
       // Optional fields.
       anonymizeIP: true, // Should IPs be anonymized?
