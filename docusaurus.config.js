@@ -25,7 +25,13 @@ module.exports = {
         alt: 'OpenBankingArgentina',
         src: 'img/logo.png',
       },
-      links: [
+      items: [
+		{
+		  to: "api/",
+		  activeBasePath: "api",
+		  label: "API",
+		  position: "left",
+		},
         {
           to: 'docs/doc1',
           activeBasePath: 'docs',

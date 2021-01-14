@@ -9,12 +9,20 @@
     "deploy": "docusaurus deploy"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.54",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.54",
+    "@docusaurus/core": "2.0.0-alpha.70",
+    "@docusaurus/mdx-loader": "^2.0.0-alpha.70",
+    "@docusaurus/preset-classic": "2.0.0-alpha.70",
+    "@mdx-js/react": "^1.6.21",
+    "clsx": "^1.1.1",
+    "core-js": "^3.8.1",
+    "docusaurus-plugin-openapi": "0.0.12",
+    "mobx": "^6.0.4",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "redoc": "^2.0.0-rc.45",
+    "styled-components": "^5.2.1",
     "classnames": "^2.2.6",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "yarn": "^1.22.10"
+    "redoc-cli": "^0.10.2"
   },
   "browserslist": {
     "production": [

@@ -18,7 +18,7 @@ const features = [
   },
   {
     title: <>API de transacciones</>,
-    imageUrl: 'img/undraw_Payments_re_77x0.svg',
+     imageUrl: 'img/undraw_receipt_ecdd.svg',
     description: (
       <>
       Accede a la informacion de tus <code> transacciones  </code> 
@@ -27,7 +27,7 @@ const features = [
   },
   {
     title: <>API de cuenta</>,
-    imageUrl: 'img/undraw_Devices_re_dxae.svg',
+	imageUrl: 'img/undraw_Payments_re_77x0.svg',
     description: (
       <>
       Acceder a la informacion de tu cuenta .
