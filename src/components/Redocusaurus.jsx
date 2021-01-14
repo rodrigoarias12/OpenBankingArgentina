@@ -107,6 +107,11 @@ function Redocusaurus(props) {
           scrollYOffset: 'nav',
           theme,
         }}
+		onLoaded={error => {
+    if (!error) {
+      console.log('Yay!');
+    }
+  }}
       />
     </div>
   );
