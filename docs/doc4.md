@@ -1,20 +1,21 @@
 ---
 id: doc4
-title: Open Banking Argentina APIs disponibles
+title: Referencia de APIs
 ---
 
+> APIs disponibles en Argentina 
 
 > Open Banking es la forma segura de brindar a los proveedores acceso a su información financiera.
 
-## Bancos
+## API BANKS
 
-| Bancos          | Developers page                                                    | API reference                                          |
-| --------------- | ------------------------------------------------------------------ | ------------------------------------------------------ |
-| Banco BIND      | https://apibank.bind.com.ar/                                       | https://apibank.bind.com.ar/                           |
-| Link            | https://apilink.redlink.com.ar/#APIs                               | -                                                      |
-| Prisma          | https://developers.prismamediosdepago.com/portal/                  |                                                        |
+| Bancos          | Developers page                                                    |
+| --------------- | ------------------------------------------------------------------ |
+| Banco BIND      | https://apibank.bind.com.ar/                                       | 
+| Link            | https://apilink.redlink.com.ar/#APIs                               |
+| Prisma          | https://developers.prismamediosdepago.com/portal/                  |
 
-## Utils
+## Utiles
 
 - https://github.com/NordeaOB/swaggers
 - https://www.openbanking.org.uk/
