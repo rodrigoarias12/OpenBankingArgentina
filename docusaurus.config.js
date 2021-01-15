@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Open Banking Argentina',
-  tagline: 'Open Banking Argentina',
+  tagline: 'Proyecto open source para incentivar OPB API',
   url: 'https://openbankingargentina.com.ar',
   baseUrl: '/',
   favicon: 'img/favicon.ico',

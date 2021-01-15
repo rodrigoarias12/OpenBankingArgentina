@@ -3,15 +3,18 @@ id: doc1
 title: Open Banking Argentina
 ---
 
-## Resumen
-Uno de los objetivos en Argentina es la inclusión financiera para acabar con la desigualdad social. 
-Sin embargo, por el momento no se encuentra un ambiente tecnológico que favorezca el encuentro entre procesos bancarios/financieros e innovación.
- En el presente projecto analizaremos el contexto actual para luego crear una propuesta que incentive la innovación y la 
-comunicación entre los diferentes actores.
+
+## Motivos
+Este proyecto experimental tiene como objetivo incentivar y fomentar la madurez de open banking en argentina. Creemos que con el talento y la apertura de sistemas podremos mejorar el sistema financiero. 
+El proyecto se encuentra en una etapa de maduración pero al mismo tiempo es muy emocionante. 
+## Como contribuir
+Hay varias cosas por definir y hemos desarrollado una ruta de puntos que creemos van ayudar. 
+Entonces, si quieres contribuir, habla con nosotros y aporta tanto ideas técnicas como qué APIs se pueden crear. 
+
 
 ---
 ## Objetivos
-:::note
+:::info
 
 *	Promover la competición brindando una mejor oferta de productos y servicios.
 *	Utilizar la conveniencia de los dispositivos móviles con el fin de lograr un mayor acceso a los servicios financiero.
@@ -23,6 +26,7 @@ comunicación entre los diferentes actores.
 1-API de servicios de información de cuenta
 *	Detalles de la cuenta. 
 *	Historial de transacciones.
+
 2-Servicios de iniciación de pago
 *	Inicio de pago.
 *	Verificación de estado en la acción de pago.

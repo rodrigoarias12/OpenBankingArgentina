@@ -6,8 +6,11 @@ import SwaggerUI from "swagger-ui-react"
 import "swagger-ui-react/swagger-ui.css"
 
 :::info
+* API que retorna información de una cuenta. 
 
-API que contiene información de tu cuenta 
+Fue desarrollada siguiendo los estándares de openbankingproject.
+Para la especificación se hizo un análisis de las diferentes partes del mundo donde OPB ya se encuentra en funcionamiento. 
+Al ser una primer versión damos prioridad a que los datos sean claros.
 
 :::
 
