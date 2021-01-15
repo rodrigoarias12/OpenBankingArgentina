@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    Documentación: ['doc1', 'doc2', 'doc3'],
+    Documentación: ['doc1', 'doc2', 'doc3','doc4'],
 
   },
 };
