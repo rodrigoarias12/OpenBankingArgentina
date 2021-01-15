@@ -5,7 +5,7 @@ title: API detalles de la cuenta
 import SwaggerUI from "swagger-ui-react"
 import "swagger-ui-react/swagger-ui.css"
 
-:::note
+:::info
 
 API que contiene información de tu cuenta 
 

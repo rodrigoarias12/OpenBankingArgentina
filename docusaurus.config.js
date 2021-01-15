@@ -51,11 +51,11 @@ module.exports = {
           items: [
             {
               label: 'Transacciones',
-              to: 'docs/doc1',
+              to: 'docs/doc2',
             },
            {
               label: 'Cuenta',
-              to: 'docs/doc2',
+              to: 'docs/doc3',
             },
           ],
         },
