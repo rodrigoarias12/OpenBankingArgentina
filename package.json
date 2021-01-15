@@ -20,7 +20,8 @@
     "mobx": "^6.0.4",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "styled-components": "^5.2.1"
+    "styled-components": "^5.2.1",
+    "swagger-ui-react": "^3.40.0"
   },
   "browserslist": {
     "production": [
