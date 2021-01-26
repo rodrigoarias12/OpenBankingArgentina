@@ -15,7 +15,7 @@
     "@mdx-js/react": "^1.6.21",
     "classnames": "^2.2.6",
     "clsx": "^1.1.1",
-    "core-js": "^3.8.1",
+    "core-js": "^3.8.3",
     "docusaurus-plugin-openapi": "0.0.12",
     "docusaurus-plugin-redoc": "^0.2.2",
     "docusaurus-theme-redoc": "^0.2.1",
