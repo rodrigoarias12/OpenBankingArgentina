@@ -90,6 +90,21 @@ module.exports = {
   },
   presets: [
     [
+      'redocusaurus',
+      {
+        specs: [
+          {
+            specUrl: 'https://openbankapiargentina.azurewebsites.net/swagger/v1/swagger.json',
+            routePath: '/api/'
+          },
+        
+        ],
+        theme: {
+          primaryColor: '#1890ff',
+        },
+      }
+    ],
+    [
       '@docusaurus/preset-classic',
       {
         docs: {
@@ -104,7 +119,9 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        
       },
+    
     ],
   ],
 };
