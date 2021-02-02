@@ -1,25 +1,31 @@
 ---
 id: doc3
-title: API detalles de la cuenta
+title: API detalle cuenta
 ---
-import SwaggerUI from "swagger-ui-react"
-import "swagger-ui-react/swagger-ui.css"
-
 :::info
 * API que retorna información de una cuenta. 
-
 Fue desarrollada siguiendo los estándares de openbankingproject.
 Para la especificación se hizo un análisis de las diferentes partes del mundo donde OPB ya se encuentra en funcionamiento. 
-Al ser una primer versión damos prioridad a que los datos sean claros.
-
 :::
+### Respuesta API Cuenta
 
-<SwaggerUI url="https://openbankapiargentina.azurewebsites.net/swagger/v1/swagger.json"/>
+| Campo                              | Tipo       | Descripción                     |
+| ---------------------------------- | ---------- | ------------------------------- |
+| label                              | string     | Nombre de cuenta                |
+| number                             | string     | Número de cuenta                |
+| owners                             | Object[]   | Integrantes de cuenta           |
+| ----> id_owners                    | string     | Id integrante                   |
+| ----> display_name                 | string     | Nombre de integrante            |
+| balance	                         | Object[]   | Saldo en cuenta				    |
+| ----> currency	                 | String	  | Código moneda                   |  
+| ----> amount                       |	Number	  | Monto                           |
+| bank_id                            | string     | Código de banco (1)             |
+| account_routing                    | Object[]   | Información de la cuenta        |
+| ----> scheme   	                 | String	  | Tipo de dato (ej:cvu,cbu)       |  
+| ----> address                      |	String	  | Valor                           |
 
-export const Highlight = ({children, color}) => ( <span style={{
-      backgroundColor: color,
-      borderRadius: '2px',
-      color: '#fff',
-      padding: '0.2rem',
-    }}>{children}</span> );
+(1) [Código de bancos BCRA](https://www.bcra.gob.ar/SistemasFinancierosYdePagos/Sistema_financiero_nomina_de_entidades.asp?bco=AAA00&tipo=1)
 
+### Utiles
+
+https://sandbox.bind.com.ar/apidoc/#api-Cuenta-ConsultaCuenta

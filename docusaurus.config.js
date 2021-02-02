@@ -6,6 +6,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'rodrigoarias12', // Usually your GitHub org/user name.
   projectName: 'OpenBankingArgentina', // Usually your repo name.
+ 
   themeConfig: {
 	colorMode: {
       defaultMode: 'light',
