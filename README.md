@@ -44,3 +44,4 @@ En el futuro nos gustaría agregar más servicios como, por ejemplo: comprobar l
 *	Creación de “api en explorador” para fácil prueba y acceso a la funcionalidad.
 ## STACK
 <a href="https://reactjs.org/" title="React"><img src="https://github.com/tomchen/stack-icons/blob/master/logos/react.svg" alt="React" width="21px" height="21px"></a>
+Docusaurus + Vercel
