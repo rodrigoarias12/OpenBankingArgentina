@@ -6,7 +6,6 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'rodrigoarias12', // Usually your GitHub org/user name.
   projectName: 'OpenBankingArgentina', // Usually your repo name.
- 
   themeConfig: {
 	colorMode: {
       defaultMode: 'light',
@@ -90,21 +89,6 @@ module.exports = {
     },
   },
   presets: [
-    [
-      'redocusaurus',
-      {
-        specs: [
-          {
-            specUrl: 'https://openbankapiargentina.azurewebsites.net/swagger/v1/swagger.json',
-            routePath: '/api/'
-          },
-        
-        ],
-        theme: {
-          primaryColor: '#1890ff',
-        },
-      }
-    ],
     [
       '@docusaurus/preset-classic',
       {
