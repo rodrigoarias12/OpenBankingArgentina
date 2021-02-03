@@ -95,7 +95,7 @@ Por el momento se encuentra en etapa de desarrollo. Pronto se agregara al proyec
 | ----> currency    | String	  | Código moneda                   |  
 | ----> amount      |	Number	  | Monto                           |   
  
-
-
-
+### Endpoint / url de acceso
+GET https://openbankapiargentina.azurewebsites.net/api/Transaction
+### URL útiles 
 [Analizando API de transacciones OPB project](https://apiexplorer.openbankproject.com/?tags=Transaction,Transaction-Metadata#OBPv3_0_0-getCoreTransactionsForBankAccount)
