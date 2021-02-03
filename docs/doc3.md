@@ -60,6 +60,9 @@ Para la especificación se hizo un análisis de las diferentes partes del mundo 
 
 (1) [Código de bancos BCRA](https://www.bcra.gob.ar/SistemasFinancierosYdePagos/Sistema_financiero_nomina_de_entidades.asp?bco=AAA00&tipo=1)
 
+### Endpoint / url de acceso
+GET
+https://openbankapiargentina.azurewebsites.net/api/Account
 ### Utiles
 
 https://sandbox.bind.com.ar/apidoc/#api-Cuenta-ConsultaCuenta
