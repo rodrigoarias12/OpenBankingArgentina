@@ -7,6 +7,40 @@ title: API detalle cuenta
 Fue desarrollada siguiendo los estándares de openbankingproject.
 Para la especificación se hizo un análisis de las diferentes partes del mundo donde OPB ya se encuentra en funcionamiento. 
 :::
+```javascript
+{
+  "id": "string",
+  "label": "string",
+  "number": "string",
+  "owners": [
+    {
+      "id_owner": "string",
+      "display_name": "string"
+    }
+  ],
+  "product_code": "string",
+  "balance": {
+    "currency": "string",
+    "amount": "string"
+  },
+  "bank_id": "string",
+  "account_routings": [
+    {
+      "scheme": "string",
+      "address": "string"
+    }
+  ],
+  "account_attributes": [
+    {
+      "product_code": "string",
+      "account_attribute_id": "string",
+      "name": "string",
+      "type": "string",
+      "value": "string"
+    }
+  ]
+}
+```
 ### Respuesta API Cuenta
 
 | Campo                              | Tipo       | Descripción                     |
@@ -29,3 +63,5 @@ Para la especificación se hizo un análisis de las diferentes partes del mundo 
 ### Utiles
 
 https://sandbox.bind.com.ar/apidoc/#api-Cuenta-ConsultaCuenta
+https://apiexplorer.openbankproject.com/#OBPv4_0_0-getCoreAccountById
+

@@ -6,6 +6,17 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'rodrigoarias12', // Usually your GitHub org/user name.
   projectName: 'OpenBankingArgentina', // Usually your repo name.
+   plugins: [
+    [
+      '@docusaurus/plugin-sitemap',
+      {
+        cacheTime: 600 * 1000, // 600 sec - cache purge period
+        changefreq: 'weekly',
+        priority: 0.5,
+        trailingSlash: false,
+      },
+    ],
+  ],
   themeConfig: {
 	colorMode: {
       defaultMode: 'light',
