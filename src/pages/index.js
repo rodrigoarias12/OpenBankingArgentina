@@ -24,6 +24,7 @@ const features = [
       Accede a la informacion de tus <code> transacciones  </code> 
       </>
     ),
+	href:"docs/doc2",
   },
   {
     title: <>API de cuenta</>,
@@ -33,21 +34,27 @@ const features = [
       Acceder a la informacion de tu cuenta .
       </>
     ),
+	href:"docs/doc3",
   },
 ];
 
-function Feature({imageUrl, title, description}) {
+function Feature({imageUrl, title, description,href}) {
   const imgUrl = useBaseUrl(imageUrl);
+  const to=useBaseUrl(href);
   return (
     <div className={classnames('col col--4', styles.feature)}>
+	 <a href={to} >
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
+	   </a>
       <h3>{title}</h3>
       <p>{description}</p>
+	  
     </div>
+  
   );
 }
 
