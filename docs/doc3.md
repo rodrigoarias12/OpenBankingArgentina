@@ -63,7 +63,7 @@ Para la especificación se hizo un análisis de las diferentes partes del mundo 
 ### Endpoint / url de acceso
 GET
 https://openbankapiargentina.azurewebsites.net/api/Account
-### Utiles
+### Útiles 
 
 https://sandbox.bind.com.ar/apidoc/#api-Cuenta-ConsultaCuenta
 https://apiexplorer.openbankproject.com/#OBPv4_0_0-getCoreAccountById
