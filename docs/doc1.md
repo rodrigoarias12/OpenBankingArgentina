@@ -1,9 +1,39 @@
 ---
 id: doc1
-title: Open Banking Argentina
+title: Empezando
 ---
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
+## Conectarse a las API
+<div className="container">
+ <div className="row">
+     <div className="col col--4">
+            <div className="text--center">
+              <img  src={useBaseUrl('img/mobile.svg')} />
+            </div>
+            <h3>1</h3>
+            <p>Ingresa a tu APP</p>
+    </div> 
+    <div className="col col--4">
+            <div className="text--center">
+            <img  src={useBaseUrl('img/bank.svg')} />
+            </div>
+            <br/>
+            <h3>2</h3>
+            <p>Las APIs conectan a los servicios de un banco tradicional  </p>
+    </div> 
+    <div className="col col--4">
+            <div className="text--center">
+            <img  src={useBaseUrl('img/server.svg')} />
+            </div>
+            <br/>
+            <h3>3</h3>
+            <p>Obtener tus datos</p>
+    </div>
+  </div>
+</div>
 
+---
 ## Motivos
 Este proyecto experimental tiene como objetivo incentivar y fomentar la madurez de open banking en argentina. Creemos que con el talento y la apertura de sistemas podremos mejorar el sistema financiero. 
 El proyecto se encuentra en una etapa de maduración pero al mismo tiempo es muy emocionante. 
