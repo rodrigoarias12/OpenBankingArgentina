@@ -6,7 +6,6 @@ title: API transacciones
 * Historial de transacciones.
 
 Contiene el detalle de las transacciones que se realizaron con una cuenta.
-Por el momento se encuentra en etapa de desarrollo. Pronto se agregara al proyecto.
 :::
 
 
