@@ -1,11 +1,9 @@
 ---
 id: doc4
-title: Referencia de APIs
+title: Lista de APIs
 ---
 
 > APIs disponibles en Argentina 
-
-> Open Banking es la forma segura de brindar a los proveedores acceso a su información financiera.
 
 ## API BANKS
 
