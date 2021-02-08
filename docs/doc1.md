@@ -1,6 +1,6 @@
 ---
 id: doc1
-title: Empezando
+title: Inicio
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
