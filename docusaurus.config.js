@@ -67,7 +67,7 @@ module.exports = {
         {
           title: 'Comunidad',
           items: [{
-             label: 'GitHub',
+             label: 'Debate en GitHub',
               href: 'https://github.com/rodrigoarias12/OpenBankingArgentinaDocusaurus/discussions',
             },
             {

@@ -11,55 +11,60 @@ Contiene el detalle de las transacciones que se realizaron con una cuenta.
 
 ```javascript
 {
-    "id": "string",
-    "this_account": {
-      "id_this": "string",
-      "bankRouting": {
-        "scheme": "string",
-        "address": "string"
-      },
-      "accountRoutings": [
-        {
+  "transactions": [
+    {
+      "id": "string",
+      "this_account": {
+        "id_this": "string",
+        "bankRouting": {
           "scheme": "string",
           "address": "string"
-        }
-      ]
-    },
-    "other_account": {
-      "id_other": "string",
-      "name": "string",
-      "idType": "string",
-      "bankRouting": {
-        "scheme": "string",
-        "address": "string"
+        },
+        "accountRoutings": [
+          {
+            "scheme": "string",
+            "address": "string"
+          }
+        ]
       },
-      "accountRoutings": [
-        {
+      "other_account": {
+        "id_other": "string",
+        "name": "string",
+        "idType": "string",
+        "bankRouting": {
           "scheme": "string",
           "address": "string"
-        }
-      ]
-    },
-    "details": {
-      "type": "string",
-      "description": "string",
-      "posted": "2021-02-02T22:21:07.993Z",
-      "completed": "2021-02-02T22:21:07.993Z",
-      "new_balance": {
-        "currency": "string",
-        "amount": "string"
+        },
+        "accountRoutings": [
+          {
+            "scheme": "string",
+            "address": "string"
+          }
+        ]
       },
-      "value": {
-        "currency": "string",
-        "amount": "string"
+      "details": {
+        "type": "string",
+        "description": "string",
+        "posted": "2021-02-08T00:45:02.611Z",
+        "completed": "2021-02-08T00:45:02.611Z",
+        "new_balance": {
+          "currency": "string",
+          "amount": "string"
+        },
+        "value": {
+          "currency": "string",
+          "amount": "string"
+        }
       }
     }
-  }
+  ]
+}
 ```
 ### Respuesta API de transacciones
 
 | Campo                              | Tipo       | Descripción                     |
 | ---------------------------------- | ---------- | ------------------------------- |
+| transactions                |  Object[]  | Lista de transacciones |
 | id                | string | Id de transacción |
 | | |
 | this_account      | Object[] | Cuenta usuario solicitante |

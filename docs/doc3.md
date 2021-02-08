@@ -29,15 +29,6 @@ Para la especificación se hizo un análisis de las diferentes partes del mundo 
       "scheme": "string",
       "address": "string"
     }
-  ],
-  "account_attributes": [
-    {
-      "product_code": "string",
-      "account_attribute_id": "string",
-      "name": "string",
-      "type": "string",
-      "value": "string"
-    }
   ]
 }
 ```

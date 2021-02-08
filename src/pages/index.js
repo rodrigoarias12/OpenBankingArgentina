@@ -12,7 +12,7 @@ const features = [
     imageUrl: 'img/undraw_Data_points_re_vkpq.svg',
     description: (
       <>
-       Esta pensando para facilitar el acceso a las apis. Sin vueltas.
+      Pensando para facilitar el acceso a las apis. Sin vueltas.
       </>
     ),
   },
@@ -21,7 +21,7 @@ const features = [
      imageUrl: 'img/undraw_receipt_ecdd.svg',
     description: (
       <>
-      Accede a la informacion de tus <code> transacciones  </code> 
+      Accede a la información de tus <code> transacciones  </code> 
       </>
     ),
 	href:"docs/doc2",
@@ -31,7 +31,7 @@ const features = [
 	imageUrl: 'img/undraw_Payments_re_77x0.svg',
     description: (
       <>
-      Acceder a la informacion de tu cuenta .
+      Acceder a la información de tu cuenta .
       </>
     ),
 	href:"docs/doc3",
